@@ -6,8 +6,11 @@ name = "pypi"
 [packages]
 django = "~=3.1.0"
 djangorestframework = "~=3.11.0"
+dj-rest-auth = "==1.1.0"
+django-allauth = "~=0.42.0"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.8"
