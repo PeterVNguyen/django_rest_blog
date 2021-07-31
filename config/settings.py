@@ -40,7 +40,6 @@ INSTALLED_APPS = [
 
     #
     'django.contrib.sites',
-    'posts.apps.PostsConfig',
     'rest_framework',
     'rest_framework.authtoken',
     'dj_rest_auth',
@@ -48,6 +47,11 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'dj_rest_auth.registration',
+    'drf_yasg',
+
+    # local
+    'posts.apps.PostsConfig',
+
 
 ]
 
